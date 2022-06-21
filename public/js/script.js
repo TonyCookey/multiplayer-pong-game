@@ -3,7 +3,7 @@ const { body } = document;
 const canvas = document.createElement('canvas')
 const context = canvas.getContext('2d')
 
-const socket = io('http://localhost:3000')
+const socket = io('/pong')
 let isReferee = false
 const width = 500;
 const height = 700;
